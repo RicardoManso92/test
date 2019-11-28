@@ -8,7 +8,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let item on basket">
+    <tr *ngFor="let item of basket">
       <td>{{ item.product.description }}</td>
       <td>{{ item.units }}</td>
       <td>{{ getAmount(item) }}</td>
