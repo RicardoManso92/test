@@ -1,0 +1,36 @@
+{
+  "npmScope": "angular-boss",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "shop-e2e": {
+      "tags": []
+    },
+    "shop": {
+      "tags": []
+    },
+    "warehouse-e2e": {
+      "tags": []
+    },
+    "warehouse": {
+      "tags": []
+    },
+    "apps-api-api": {
+      "tags": []
+    },
+    "api-api": {
+      "tags": []
+    },
+    "shared-domain": {
+      "tags": []
+    },
+    "shared-ui": {
+      "tags": []
+    }
+  }
+}
