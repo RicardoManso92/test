@@ -10,7 +10,7 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { BasketItem, Product } from '../model/products.interface';
 
 @Component({
-  selector: 'ab-shop-item-picker',
+  selector: 'abshop-item-picker',
   templateUrl: './item-picker.component.html',
   styles: [],
   changeDetection: ChangeDetectionStrategy.Default
